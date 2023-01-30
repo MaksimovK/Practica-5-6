@@ -4,7 +4,7 @@ fun main()
         print("Введите число от 1 до 9: ");
 
         var a = readLine()!!.toInt();
-
+        if(a => 10 || a <= 0) throw java.lang.Exception("Число должно быть от 1 до 9")
         val result = when(a)
         {
             1->"Один"
